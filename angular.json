@@ -23,6 +23,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -90,12 +91,20 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "..node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../node_modules/jquery/dist/jquery.min.js",
+              "../node_modules/popper.js/dist/popper.min.js",
+              "../node_modules/bootstrap/dist/bootstrap.min.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "bb119775-96f3-4136-ad1f-45906f2fc58a"
   }
 }
